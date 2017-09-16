@@ -19,7 +19,7 @@ import java.util.*;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
-	private ArrayList<Student> std
+	private ArrayList<Student> std;
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
@@ -263,11 +263,11 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public Student[] getNearBirthDate(Date date, int days){	System.out.println("hello");return null;	
+	public Student[] getNearBirthDate(Date date, int days){	System.out.println("hello");return this.students;	
 	}
 
 	@Override
-	public int getCurrentAgeByDate(int indexOfStudent) {System.out.println("hello");return 0;
+	public int getCurrentAgeByDate(int indexOfStudent) {System.out.println("hello");return 5;
 	}
 
 	@Override
