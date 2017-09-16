@@ -19,7 +19,7 @@ import java.util.*;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
-	private ArrayList<Student> std;
+	private ArrayList<Student> std
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
